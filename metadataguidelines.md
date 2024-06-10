@@ -84,3 +84,63 @@ The Bulk Rename Utility application can be used to apply bulk changes to both fo
   *  /mnt/ingest/data/audio9177.wav
 
 ***
+
+### **Total Scans**
+**Definition:** Number of digital files for a given object or resource.  
+**Obligation:** _Required for Book objects only!_; not repeatable  
+**Enter Data in Spreadsheet Column:** total_scans  
+**Type of field:** Integer  
+**Application:**  
+* Enter the number of digital files in a folder for each book object to be ingested.
+* This number must match the amount of files in your object’s folder in order for workbench to run the ingest and upload the files.
+
+**Example:**
+
+Object folder | total_scans field
+--- | ---
+7 tif files | 7
+158 tif files | 158
+40 jpg files | 40
+
+***
+
+### **Resource Type**
+**Definition:** A broad term that specifies the characteristics or general physical aspect of the content of the resource.   
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_resource_type  
+**Type of field:** Entity reference  
+**Application:**  
+* Enter the term from the controlled list below that best characterizes or describes the item. Only one value may be assigned.
+* The first letter of the term must be capitalized.
+
+Term name | External link  
+--- | --- 
+Collection | http://purl.org/dc/dcmitype/Collection 
+Data Set | http://purl.org/dc/dcmitype/Dataset 
+Image | http://purl.org/dc/dcmitype/Image 
+Interactive Resource | http://purl.org/dc/dcmitype/InteractiveResource 
+Moving Image | http://purl.org/dc/dcmitype/MovingImage 
+Physical Object | http://purl.org/dc/dcmitype/PhysicalObject 
+Service | http://purl.org/dc/dcmitype/Service 
+Software | http://purl.org/dc/dcmitype/Software 
+Sound | http://purl.org/dc/dcmitype/Sound 
+Still Image | http://purl.org/dc/dcmitype/StillImage 
+Text | http://purl.org/dc/dcmitype/Text 
+
+Note: The Born-Digital Islandora 2.0 theme requires specific combinations of Resource Type and Model terms in order for compound objects, collections, and paged objects to display correctly. Please refer to Appendix B: Born-Digital Islandora 2.0 Theme Object View Configurations.
+
+**Example:**  
+
+Object Type | Resource Type term | Islandora Model term  
+--- | --- | --- 
+Collection | Collection | Collection 
+Audio | Sound | Audio 
+Basic Image (jpeg) | Still Image | Image 
+Book (parent of pages) | Still Image | Image 
+Large Image (tiff) | Still Image | Image 
+Page | Text | Page 
+PDF | [any] | Digital Document 
+Video | Moving Image | Video 
+
+***
+
