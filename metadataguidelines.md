@@ -194,3 +194,85 @@ Video | Moving Image | Video
 * If you are adding a new collection to Drupal, you will leave this column blank. However you will not delete the column when ready for ingest.
 
 ***
+
+### **Title**  
+**Definition:** A word, phrase, character, or group of characters, normally appearing in a resource, that names it or the work contained in it.  
+**Obligation:** Required; not repeatable (Exactly one main title is required; for additional titles, use Alternative Title or Subtitle fields)  
+**Enter Data in Spreadsheet Column:** title AND field_metadata_title  
+**Type of field:** Text  
+**Application:**  
+* _title_ column must be contain a value for Islandora Workbench purposes. This will be the header on the object page, and will display as the object title on collection and search results pages.
+* _field_metadata_title_ column must contain the same value as above in _title_ field. This will display as the object title in the metadata portion of the object page.
+* For correspondence and like materials: its title should be entered as “Last Name, First Name to First Name Last Name”
+
+   Montgomery, Dorcas Armitage to Sarah Franklin Bache, 1783 July 26
+  
+* If the date is part of an item’s title, generally the case with items of correspondence or several documents with the same name (like ‘Lecture Notes,’ etc.), the date will appear in the title following the title text and a comma. It should follow the format of ‘YYYY Month (spelled out) DD - Month (spelled out) DD’.
+
+  Lecture Notes, 1802 January 31 - February 2
+
+* If an item spans multiple years, it should follow the format of ‘YYYY-YYYY’.
+
+  Lecture Notes, 1802-1805
+
+**Additional information regarding titles:**
+* An item should have a brief, descriptive, and unique title. The title should describe the item in basic terms, but should not attempt to supply an exhaustive description.
+* If there are multiple items with the same title, additional information is needed to make each title unique. This could be a date, a location, or a number.
+* The title may be transcribed from the item itself (book title, photograph caption, artist's title, item name, etc.). 
+  *  Write out the title the way it appears.
+  *  If the material has been published, format title following sentence structure (first word and proper nouns capitalized)
+  *  Keep other capitalization the same as it is found on the item.
+* If no title exists: 
+  *  Construct one using accepted standards (DACS 2.3).
+  *  Compose a title for the item similar to one found in a digital library or similar resource (including OCLC Worldcat)
+  *  Do not put the call number, file name, or other identification numbers in the title
+  *  Use the same capitalization for all titles in a record unless there is a reason not to do so (e.g., authorized series titles)
+  *  Write out abbreviations or acronyms
+* Separate titles and subtitles with a colon
+* When a name is unknown/guessed:
+  *  Use “Unknown recipient” or “Unknown author” - for unknown name
+  *  Use brackets for guessed name (e.g. [Sabrina] Bocanegra) in the description field
+ 
+**Examples:**  
+
+Type of Object | Title  
+--- | --- 
+Correspondence | Adams, Samuel to Sally Preston Adams, 1778 July 20 
+Diary/Journal | Elizabeth Farmer letter book, 1774-1789 
+Broadside | In committee, December 14, 1774. Resolved, that the proceedings of this committee on November 30th, concerning the killing of sheep be republished in the English and German newspapers, and also in hand bills, to be dispersed through the markets of this city, viz. ... 
+Minutes | Society of Friends minutes 
+
+***
+
+### **Id**  
+**Definition:** A unique identifier specifically used for Islandora Workbench as a reference to match objects with its parent collections.  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** id  
+**Type of field:** Number (integer)  
+**Application:**  
+* Each row in the spreadsheet should have a value in this field. 
+* No row should have the same id.
+* Numbers should start sequentially from 1.
+* Note: This field  is only used by Workbench and is not migrated into the Repository Item node.
+
+Example:
+ [screenshot of Rev City workbench sheet]
+
+***
+
+### **Parent**  
+**Definition:** Defines the relationship between parent and child objects or nodes.  
+**Obligation:** Required, not repeatable  
+**Enter Data in Spreadsheet Column:** parent_id  
+**Type of field:** Number (integer)  
+**Application:**  
+* For new collections, you must enter the proper number from the _id_ field into the _parent_id_ column. 
+* If the collection into which you are ingesting the object already exists in the Portal, you can use field_member_of to identify the parent using its node ID. 
+  *  In that case, the Book Parent would not have anything in the _parent_id_ column, but would include the collection node ID in the _field_member_of_ column.
+* Note: This is only used by Workbench and is not migrated into the Repository Item node.
+
+Example:
+ [screenshot of workbench sheet]
+
+***
+
