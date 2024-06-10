@@ -67,4 +67,19 @@ Item Type | Resolution (dpi) | Color Space | Bit Depth | File Format | Notes
 Manuscripts & (Rare) typed/printed | 400-600 | Color | 24-bit | Raw TIFF |
 (Non-rare) Typed/printed | 300-400 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility
 
+## **File Storage**
+Before scanning begins, it is important to create a folder to save the image files. All scanned images should be saved to the APS servers. Files will live here temporarily until they are ready for long-term, public-facing storage in the APS Digital Library. 
+
+File organization and naming is a vital component of maintaining a clear connection between a physical object and its corresponding digital surrogate. A good guideline to follow is to imagine being someone else, or you in a year, looking at your scans - is it obvious what they are? Are they unambiguously one specific folder or item in the finding aid?
+
+The files should be arranged by collection (prefixed with the collection call number or accession number).
+* The folder name must be the same root as the file name
+  *  Folder name = Mss_Coll_190_001 ;
+  *  Filenames within folder = Mss_Coll_190_001-001.tif, Mss_Coll_190_001-002.tif, Mss_Coll_190_001-003.tif, etc.
+
+For specific information on file naming conventions, see American Philosophical Society Digital Library Metadata Guidelines. For special cases, consult your project supervisor.
+
+**Back ups**
+Digital preservation is a central aspect of the APS, and is provided by continual backups, server maintenance and file-level services. The APS hosts all data on three onsite servers and a host of virtual machines. All data is backed up remotely in consistent rotations, and all daily data modification is mirrored to an offsite data center in West Chester, Pennsylvania. For added security, the APS also enabled the Datto Endpoint Server and Disaster Recovery Solution.
+
 
