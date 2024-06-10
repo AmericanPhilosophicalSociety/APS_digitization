@@ -125,3 +125,36 @@ When viewing images in Image Viewer or Photoshop, check for:
  
 If necessary, Digitization staff will perform any post scan/digitization adjustments. Please contact CDS staff if you have any questions or concerns about the faithfulness of the scanned image(s) to the original(s).
 
+## **Quality Control Measures**
+**Images:**
+* Image review should occur at every stage of scanning - including previewing, after scanning, and after any post-processing.
+* Always perform quality control on scans at the end of a folder/box, day, or time scanning.
+  *  Make sure scans reflect items in the box or folder.
+  *  Keep the contents in the folder(s) and box(es) in order. If there is a question about the order of contents, please see institution staff.
+
+**Review this checklist once after digitization is complete and once after objects are uploaded into portal:**
+* Appropriate filename(s) reflecting collection material and order of files (page numbers)
+* Correct format (should end with .tiff)
+* Resolution (should be at least 400dpi in general)
+* Multi-page object accuracy
+  *  Page count (count the number of pages scanned, and then the number of pages belonging to the physical item)
+  *  Page order (compare the digital scan to the physical item to ensure that the images are in the correct order. A quick way to do this is to compare the first and last word on each page.)
+* Clarity/legibility
+* Skew (is the image stretched or squashed at all?)
+* Orientation (is the image the right way up? Is it straight? Is it centered?)
+* Completeness (is any of the object cut off?)
+* Color/contrast (is the color of the image reasonably accurate? Does the image look too bright or too dark?)
+
+### **Metadata:**
+Metadata review should occur before and after upload into the APS Digital Library.
+
+**Review this checklist once after metadata creation is complete:**
+* Re-read each field for typos (spell check is encouraged, as google sheets does not do this automatically)
+* Does the format of each field adhere to Workbench standards? (Be mindful of specific formatting for each field as Workbench will not upload metadata if incorrectly input into spreadsheet!)
+* Does the file field in Workbench sheet match the scanned image filename?
+* Is the metadata consistent throughout the collection and with current APS Digital Library Metadata standards? 
+* Are all of the required fields filled in? Is there missing information about the object? 
+
+**Review this checklist once after objects are uploaded into APS Digital Library:**
+* Are all required fields displayed accurately? 
+* Is any data missing or displaying oddly?
