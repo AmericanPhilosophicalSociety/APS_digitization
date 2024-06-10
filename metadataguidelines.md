@@ -183,3 +183,14 @@ PDF | [any] | Digital Document
 Video | Moving Image | Video 
 
 ***
+
+### **Member of**  
+**Definition:** Determines the parent of the object. It is used to identify the collection to which an object belongs, or the parent/container object if the object is a page or compound object.  
+**Obligation:** Required (if adding to a pre-existing collection); not repeatable  
+**Enter Data in Spreadsheet Column:** field_member_of  
+**Type of field:** node reference  
+**Application:**  
+* For the purposes of Workbench, the Member Of column is used if you have a pre-existing collection in Drupal into which you want to ingest an object. In this case, you will enter the collection’s node ID in the Member Of column in the object row that belongs to the collection.
+* If you are adding a new collection to Drupal, you will leave this column blank. However you will not delete the column when ready for ingest.
+
+***
