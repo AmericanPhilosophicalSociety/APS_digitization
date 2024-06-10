@@ -90,3 +90,38 @@ There are two spreadsheets that will be used for ingest. Depending on what type 
 _For special digitization projects:_
 There will be a Workbench sheet within each _Collection Metadata Management_ spreadsheet. In addition to the formatted Workbench sheet, the Collection Metadata Management spreadsheet also contains an _Inventory_ sheet where you will keep track of various stages of the digitization process, including scanning, metadata creation, and quality control. The Inventory sheet is meant to be used for tracking workflow, as well as a “working document” for creation of collection metadata during scanning and/or quality control.  Digitization Technicians should enter “rough” metadata into the Inventory sheet and enter complete, correctly formatted metadata to the Workbench sheet.
 
+## **Image Capture**
+For various scenarios below, always use your best judgment and when in doubt, consult your project supervisor or CDS staff!
+
+* Leave 1 cm. of whitespace around the edges of the physical object when possible.
+  *  Exceptions:
+  -  If the entire item is visible, including the edges, and no text is cut off when scanning on the flatbed or book scanner, then it is okay to not have a 1cm border.
+  -  If you are scanning a large item on a flatbed scanner that will need to be scanned in parts.
+* Scan both sides of an item/page, even if blank, if the date created is before 1850.
+  *  Exceptions:
+  -  If scanning a bound volume with multiple sequential blank pages, scan a few of the blank pages and skip to the next page with content.
+  -  **Note**: A page is considered a “page” if it contains text, sketches, watermark, postage or any other markings including contemporary writing by creator/recipient/collaborator and/or later markings by donor/archivist/cataloger.
+* Scan material as it appears in person.
+  *  For example - When scanning a folded letter, scan front/first page, then unfold paper to scan inside as one page, then fold again to scan back/last page.
+  *  Exceptions:
+  -  If material is too large to scan unfolded inside page, rotation on flatbed is necessary and scan inside as 2 separate pages.
+* Scan all fold outs and inserts with care.
+  *  Scan all parts:
+  1. Page with fold out or insert attached and visible
+  2. Page with fold out or insert removed (if possible) to capture obstructed text or image
+  3. Insert by itself
+  *  This will occur most often with bound material, however, loose material may also contain fasteners that cannot be removed.
+ 
+## **Post Processing**
+When viewing images in Image Viewer or Photoshop, check for:
+* Orientation
+  *  Rotate if needed.
+  *  Scanned image should mimic the original. Once uploaded into the APS Digital Library, the digital object viewer allows for rotation of the object.
+* Crop and border
+  *  For items with multiple pages, maintain the same crop size from page to page (file to file) if possible. You can do this in Photoshop by starting the crop box from the upper left 0-point and measuring out to the same dimensions as the starting page. When you have the correct dimensions, use the arrow keys to center the crop box.
+  *  If there are several pages or a whole book object that needs the same crop, you can run a batch process on the object.
+* Skew
+  *  Straighten only in extreme cases.
+ 
+If necessary, Digitization staff will perform any post scan/digitization adjustments. Please contact CDS staff if you have any questions or concerns about the faithfulness of the scanned image(s) to the original(s).
+
