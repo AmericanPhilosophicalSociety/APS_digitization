@@ -439,3 +439,75 @@ The Sol Feinstone Collection on the American Revolution, ca. 1760s-1850s finding
 
 ***
 
+### **Date Created**
+**Definition:** The date of creation of the original resource.  
+**Obligation:** Highly recommended; repeatable  
+**Enter Data into Spreadsheet Column:** field_edtf_date_created **AND/OR** field_date_created_text  
+**Type of field:** EDTF and Text (plain)  
+**Application:**  
+* Use _field_edtf_date_created_ for: known numerical dates – 1776-07-04
+  *  Must conform to Extended Date/Time Format (EDTF) standards.
+  *  See [EDTF Specification](https://www.loc.gov/standards/datetime/) for more information.
+  *  Use the [date validator](https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
+  *  If the date is unknown, leave this field blank and use the text field below.
+* Use _field_date_created_text_ for: plain text dates – undated, approximately 1930s
+  *  Never write the date as **n.d.** if the date is unknown, only use the term undated.
+  *  If only the Day of the Week is available i.e. Wednesday morning, then add to this field.
+
+
+Additional information regarding Date:  
+* When the resource being described is a collection or folder of items, a date range can be used to describe the creation date range of all the resources.
+* Creation date refers to the date of the exact item described in the record, even if it is a derivation.
+* If the item is a reprint or revision of an original text:
+  *  Use the date of the reprint/revisions
+  *  Include a note about the original text and printing date
+* If the item is a copy negative:
+  *  Use the date that the copy negative was created
+  *  The date of the original photographs may be included in a note or description
+* If there is no letter or message written on postcards or greeting cards:
+  *  The item is treated as a photograph or piece of artwork
+  *  Use the date that the photograph was taken or the drawing was done
+* If the postcard or greeting card has a letter or message written on/in it:
+  *  The item is treated as a piece of correspondence
+  *  Use the date that the letter was written or that the card was postmarked
+ 
+
+Type of Date | Format | Example 
+--- | --- | ---
+Year only | YYYY | 1776
+Year and Month | YYYY-MM | 1778-01
+Year, Month and Day | YYYY-MM-DD | 1779-10-31
+Date range | YYYY/YYYY | 1774/1783
+Date range | YYYY-MM/YYYY-MM | 1775-01/1775-12
+Date range | YYYY-MM-DD/YYYY-MM-DD | 1781-02-02/1783-01-31
+Seasons | YYYY-21 (Spring), 22 (Summer), 23 (Autumn), or 24 (Winter) | 1778-24
+Date uncertain | YYYY? | 1774?
+Date approximate | YYYY-MM~ | 1776-07~
+Date uncertain and approximate | YYYY-DD-MM% | 1780-06-28%
+Year with unknown digit | YYXX | 17XX
+Unspecified digit | YYYX-MM-DD | 178X-07-04
+Year and Month uncertain | YYYY-MM~-DD | 1774-05~-20
+Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
+
+***Please consult [EDTF Specification](https://www.loc.gov/standards/datetime/) for more information on formatting.**
+
+***
+
+### **Date Digitized**
+**Definition:** The date on which the resource was digitized or a subsequent snapshot was taken.   
+**Obligation:** Recommended; not repeatable  
+**Enter Data in Spreadsheet Column:** field_date_digitized  
+**Type of field:** EDTF  
+**Application:**  
+* Must conform to Extended Date/Time Format (EDTF) standards.
+*  See [EDTF Specification](https://www.loc.gov/standards/datetime/) for more information.
+*  Use the [date validator](https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
+* If the date is unknown, leave the field blank.
+
+**Examples:**
+* 2021
+* 2021-04
+* 2021-04-01
+
+***
+
