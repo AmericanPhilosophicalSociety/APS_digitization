@@ -306,3 +306,90 @@ PDFjs | PDF
 Remote Media | Video or audio files stored externally
 
 ***
+
+## **Require Metadata for APS**
+
+### **Digital Origin**
+**Definition:** The method by which a resource achieved digital form.  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_digital_origin  
+**Type of field:** Entity reference  
+**Application:**   
+* Enter the term from the controlled list below that best characterizes or describes the item.
+* Most content will be "Reformatted digital" indicating that it is a digital facsimile of an original physical object.
+* Use "digitized other analog" only when the digital resource was created by digitizing an intermediate form other than microform, such as a photocopy, of the original.
+* The first letter of the term must be capitalized.
+
+Digital Origin Term | Definition 
+--- | ---
+Reformatted digital | A resource was created by digitization of the original which was in a non-digital form (except original microforms). This value will be used most commonly.
+Born digital | A resource was created in and is intended to remain in digital form.
+Digitized microfilm | A resource was created by digitizing a microform [microfilm/microfiche].
+Digitized other analog | A resource was created by digitizing an intermediate form of the original resource (but not microform) such as photocopy, transparency, slide, 2nd generation analog tapes, etc. [might include carbon copies]
+
+***
+
+### **Parent Collection Call Number**
+**Definition:** Local call number or accession number for the original source object.  
+**Obligation:** Required if applicable; not repeatable  
+**Enter Data in Spreadsheet Column:** field_parent_collection_call_num  
+**Type of field:** Text (plain)  
+**Application:**  
+* Enter the item’s specific/named collection number or identifier.
+* Do not leave spaces between periods.
+
+**Examples:**
+* Mss.B.F327
+* Mss.Ms.Coll.73
+* Mss.497.3.Sp5
+* Amb.1752
+* Coll740
+
+***
+
+### **Parent Collection Title**
+**Definition:** The name of a collection of which the item being described is a part.  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_collection2  
+**Type of field:**  Entity reference  
+**Application:**  
+* Enter the item’s specific/named collection.
+* Enter the title exactly as it appears in the accession record or finding aid.
+
+**Examples:**
+* The Sol Feinstone collection of the American Revolution, ca. 1760s-1850s
+* Julia Rush letters, 1776-1809
+* Spokane primer, 1976
+
+***
+
+### **Parent Collection URL**
+**Definition:** Internet address of the finding aid, collection description, or other guide for understanding and accessing the repository collection to which the resource belongs.  
+**Obligation:** Required if applicable; not repeatable  
+**Enter Data in Spreadsheet Column:** field_collection_url  
+**Type of field:** Link  
+**Application:**  
+* Enter the URL of the finding aid or other collection guide. **Enter the URL only.**
+* Do not include entire URL when pulling from a search:
+
+  _Correct_: <https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml>  
+  
+  _Incorrect_: <https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default>
+
+***
+
+### **Reformatting Quality**
+**Definition:** The type of scan done on the original object, e.g. access (JPEG) or preservation (TIFF).  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_reformatting_quality  
+**Type of field:** Entity reference  
+**Application:**  
+* Enter the term from the controlled list below that best characterizes or describes the item.
+* The first letter of the term must be capitalized.
+* Scanning done for _Rev City_ should always be preservation, however, there may be exceptions. Please talk to the Project Team if there are questions.
+* Note: Derivatives are created upon ingest.
+
+***
+
+## **Recommended Metadata**
+
