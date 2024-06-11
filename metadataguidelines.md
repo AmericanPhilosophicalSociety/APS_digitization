@@ -511,3 +511,47 @@ Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
 
 ***
 
+### **Extent**
+**Definition:** A statement of the number of the units (pages), file size, or duration of the resource.  
+**Obligation:** Recommended; repeatable  
+**Enter Data into Spreadsheet Column:** field_extent  
+**Type of field:** Text (plain)  
+**Application:**  
+* Add the number of pages included in the item except for blank pages.
+* A page is considered a page if it contains text, sketches, or any other markings including contemporary writing by creator/recipient/collaborator or later writing by donor/archivist/cataloger
+* If pages, format as follows: [Number of pages][lowercase p][period] with no spaces in between.
+
+Type of material | Sample extent
+--- | ---
+Letter | 4p.
+Diary | 156p.
+Oral history interview | 1:04:24
+Song recording | 0:03:55 
+
+***
+
+### **Genre**
+**Definition:** A term or phrase that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc.; the type of object it is.  
+**Obligation:** Recommended; repeatable  
+**Enter Data into Spreadsheet Column:** field_genre  
+**Type of field:** Entity reference  
+**Application:**  
+* Enter a term for the genre of the resource that characterizes its content. The genre field should be used to characterize the content of the resource rather than the resource itself or its physical characteristics.
+* Choose applicable genre terms from the Getty Art and Architecture Thesaurus (AAT) (particularly AAT terms denoted as "genre"), or from the MARC Genre Term List (MARCGT).
+  *  AAT: <http://www.getty.edu/research/tools/vocabularies/aat/>
+  *  MARCGT: <https://www.loc.gov/standards/valuelist/marcgt.html> 
+* Be consistent and use Plural terms with the first letter capitalized.
+* Separate multiple entries with a semicolon and no spaces in between entries
+
+
+Additional information regarding Genre:  
+* You may also want to include a keyword or phrase in the _abstract_ or _title_ fields that gives the user additional context for the genre term, especially if there is not a term found in a controlled vocabulary/resource. For example, for Correspondence, you may use the term “letters” in the _abstract_.
+
+**Examples:**
+* Correspondence
+* Letter books\|Personal Correspondence\|Recipes
+* Diaries\|Bookkeeping records
+* Minutes\|Excerpts
+
+***
+
