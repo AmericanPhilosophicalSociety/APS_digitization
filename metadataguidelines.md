@@ -296,8 +296,8 @@ Example:
 **Enter Data in Spreadsheet Column:** field_display_hints  
 **Type of field:** Entity reference  
 **Application:**  
-* This value will be added by **Administrator** through a python script; leave blank and do not delete the column
-* This is only used by Workbench and is not migrated into the Repository Item node.
+* This value will be added by **Administrator** through a python script; leave blank and do not delete the column.
+* This is only used by Workbench.
 
 Term name | Used for
 --- | ---
@@ -326,25 +326,6 @@ Reformatted digital | A resource was created by digitization of the original whi
 Born digital | A resource was created in and is intended to remain in digital form.
 Digitized microfilm | A resource was created by digitizing a microform [microfilm/microfiche].
 Digitized other analog | A resource was created by digitizing an intermediate form of the original resource (but not microform) such as photocopy, transparency, slide, 2nd generation analog tapes, etc. [might include carbon copies]
-
-***
-
-### **Display Hints**
-_Value will be added by Administrator via script to create CSV_
-_This is only used by Workbench_
-
-Definition: A term to define which viewer is used on an object page.  
-Obligation: Required for Workbench; not repeatable  
-Enter Data into Spreadsheet Column: field_display_hints  
-Type of field: Entity reference  
-Application:  
-* Enter a term from the following list _if_ uploading a Large Image, Page, PDF, or video or audio files stored externally:
-
-Term Name | Used For
---- | ---
-Open Seadragon | Large Image, Page
-PDFjs | PDF
-Remote Media | Video or audio files stored externally
 
 ***
 
