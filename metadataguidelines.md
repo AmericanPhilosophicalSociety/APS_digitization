@@ -6,6 +6,7 @@ last_modified_date: June 10 2024
 ---
 
 # {{ page.title }}
+{: .no_toc }
 
 This document is intended as a guide to data entry and descriptive cataloging for the American Philosophical Soceity Digital Libary using Islandora and Drupal software. It is designed to help the creator of the record metadata decide what information is required, which field is the best choice for the information, and the format in which the information should be entered.  It will be updated as modifications in the software and/or metadata schema necessitate.
 
