@@ -2,12 +2,21 @@
 layout: page
 title: Digitization Guidelines
 permalink: /digitization/
-last_modified_date: June 10 2024
+last_modified_date: June 21 2024
 ---
 
 # {{ page.title }}
+{: .no_toc }
 
 This document is intended as a guide to digitization, specifically image and metadata capture for the American Philosophical Society Digital Library. It will be updated as modifications in the equipment, software and/or metadata schema necessitate.
+
+<details open markdown="block">
+  <summary>
+ Table of Contents
+    </summary>
+- TOC
+{:toc}
+</details>
 
 ## **Preparing the Work Station**  
 Before any digitization takes place, staff should ensure that all of the following conditions have been met:
