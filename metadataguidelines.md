@@ -329,6 +329,25 @@ Digitized other analog | A resource was created by digitizing an intermediate fo
 
 ***
 
+### **Display Hints**
+_Value will be added by Administrator via script to create CSV_
+_This is only used by Workbench_
+
+Definition: A term to define which viewer is used on an object page.  
+Obligation: Required for Workbench; not repeatable  
+Enter Data into Spreadsheet Column: field_display_hints  
+Type of field: Entity reference  
+Application:  
+* Enter a term from the following list _if_ uploading a Large Image, Page, PDF, or video or audio files stored externally:
+
+Term Name | Used For
+--- | ---
+Open Seadragon | Large Image, Page
+PDFjs | PDF
+Remote Media | Video or audio files stored externally
+
+***
+
 ### **Parent Collection Call Number**
 **Definition:** Local call number or accession number for the original source object.  
 **Obligation:** Required if applicable; not repeatable  
@@ -695,4 +714,54 @@ Additional information regarding Subjects:
   *  Avoid terms too general to describe a particular item.
   *  Only include geographic subjects when the particular place is important to the subject content.
 * It is not necessary to repeat terms from controlled vocabularies as keywords
+
+
+## **Other Metadata**
+
+### **Administrative Notes**
+**Definition:** Administrative textual information relating to a resource.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** field_administrative_notes  
+**Type of field:** Text (plain, long)  
+**Application:**   
+* You may enter notes from the finding aid or guide, digitization notes (i.e. scanning related comments), or other notes not necessary for public knowledge.
+* Internal use only; does not appear in Public User Interface
+
+**Examples:**
+* Digitized by: Bocanegra, Sabrina
+* Digitized by: American Philosophical Society
+* Not only copy, see #93 in collection
+* Has restrictions, see ASpace record
+
+***
+
+### **Access Control**
+Definition:  
+Obligation: Optional; not repeatable  
+Enter Data into Spreadsheet Column: field_access_terms  
+Type of field: Entity reference  
+Application:  
+* Uses terms from the Islandora Access Taxonomy below:
+  *  N/A
+  *  Admin-only access
+  *  Differential access - limited
+  *  Differential access - open
+  *  Limited access
+  *  Reading Room
+  *  Restricted Audio
+ *  For individual items where it doesn't make sense to make bulk edits with Workbench, you should restrict items by editing the access control field in the item's metadata. Select "Admin-only access" for now while we work out the permissions issue. If you don't see this field, please let us know and we will work on a fix.
+
+***
+
+### **Date Modified**  
+**Definition:** The date in which a resource is modified or changed.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** field_date_modified  
+**Type of field:** EDTF  
+**Application:**  
+* Enter the date in EDTF format in which the object was modified.
+
+**Examples:** See Date Created for information on formatting.
+
+***
 
