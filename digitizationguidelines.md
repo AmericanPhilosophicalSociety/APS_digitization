@@ -135,7 +135,7 @@ When viewing images in Image Viewer or Photoshop, check for:
 If necessary, Digitization staff will perform any post scan/digitization adjustments. Please contact CDS staff if you have any questions or concerns about the faithfulness of the scanned image(s) to the original(s).
 
 ## **Quality Control Measures**
-**Images:**
+### **Images**
 * Image review should occur at every stage of scanning - including previewing, after scanning, and after any post-processing.
 * Always perform quality control on scans at the end of a folder/box, day, or time scanning.
   *  Make sure scans reflect items in the box or folder.
@@ -154,7 +154,7 @@ If necessary, Digitization staff will perform any post scan/digitization adjustm
 * Completeness (is any of the object cut off?)
 * Color/contrast (is the color of the image reasonably accurate? Does the image look too bright or too dark?)
 
-### **Metadata:**
+### **Metadata**
 Metadata review should occur before and after upload into the APS Digital Library.
 
 **Review this checklist once after metadata creation is complete:**
