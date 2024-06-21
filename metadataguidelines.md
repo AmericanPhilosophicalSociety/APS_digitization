@@ -746,3 +746,61 @@ Application:
 
 ***
 
+### **Form**
+Definition: A particular physical presentation of a resource, including the physical form or medium of material for a resource.  
+Obligation: Optional; not repeatable  
+Enter Data into Spreadsheet Column: field_physical_form  
+Type of field: Entity reference  
+Application:  
+* Record the form of the digitized and analog original resources if such information will be useful.
+* Use a term from the following list: <https://www.loc.gov/standards/valuelist/marccategory.html>
+
+***
+
+### **Note**
+**Definition:** General textual information relating to a resource.  
+**Obligation:** Optional; repeatable  
+**Enter Data into Spreadsheet Column:** field_note  
+**Type of field:** Text (formatted, long)  
+**Application:**  
+* A less formal description of the item, written using free text.
+* Enter notes pertaining to the content of the resource that does not fit in a more specific field.
+  *  Such notes should be as concise as possible!
+* This field can also be used to note contents, missing pages, or condition notes for the physical item.
+* You can use a note to explain discrepancies in dates, i.e. if there is a photograph on a postcard that was taken earlier than the postcard was printed, etc.
+
+**Examples:**  
+* "Extract from the Minutes." Signed by T[imothy] Matlack, secretary.
+* A "correct copy of the record in the office of the Board of Revision of Taxes"; copied in Philadelphia, July 20, 1868
+* Leather bound with blank pages.
+* Blank pages were not scanned.
+* (example of existing metadata made by an institution) Probably written by Esther Reed who assumed leadership of the women’s relief effort in Philadelphia. See Reed, William B. The life of Esther De Berdt, afterwards Esther Reed, of Pennsylvania (Philadelphia, 1853), p. 313-324.;Followed by, on p. [2]: Ideas, relative to the manner of forwarding to the American soldiers, the presents of the American women.;Imprint from colophon. The American Antiquarian Society copy was found bound after the June 10, 1780, issue of the Pennsylvania packet, printed at Philadelphia by John Dunlap. Articles related to the women’s efforts were printed in the Pennsylvania packet on June 13, 17, 27, July 8, and Nov. 4, 1780.
+
+
+***
+
+### **Subtitle**
+Definition: A word, phrase, character, or group of characters that contains the remainder of the title information after the title proper.  
+Obligation: Optional; not repeatable  
+Enter Data into Spreadsheet Column: field_subtitle  
+Type of field: Text (plain)  
+Application:  
+* A main title is required before subtitle(s) may be used.  
+* Enter the formal subtitle exactly as it appears on the item.  
+* Do not end a subtitle with a period. Do not enter a colon after the title or before the subtitle.
+
+***
+
+### **URL Alias**
+Definition: An alias for a default URL.  
+Obligation: Optional; not repeatable  
+Enter Data into Spreadsheet Column: url_alias  
+Type of field: Text (plain)  
+Application:  
+* Use this field if you have multiple objects with the same exact title.
+* Put the URL you would like for each of your objects, starting with the “/” following your root domain.
+* So if your site is mysite.com and an object on your existing site with a title of “My Object” has a URL of mysite.com/islandora/object/islandora:123, you could put in your CSV a URL alias for that object of /islandora/object/islandora:123. On ingest, that object will get a custom URL instead of /islandora/my-object.
+
+
+
+
