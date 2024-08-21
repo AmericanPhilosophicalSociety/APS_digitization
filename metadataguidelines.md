@@ -390,6 +390,12 @@ Digitized other analog | A resource was created by digitizing an intermediate fo
 * Scanning done for _Rev City_ should always be preservation, however, there may be exceptions. Please talk to the Project Team if there are questions.
 * Note: Derivatives are created upon ingest.
 
+Reformatting Quality term | Definition 
+--- | --- 
+Access | The electronic resource is intended to support current electronic access to the original item (i.e., reference use), but is not sufficient to serve as a preservation copy.
+Preservation | The electronic resource was created via reformatting to help preserve the original item. The capture and storage techniques ensure high-quality, long-term protection." This value will be used most commonly. 
+Replacement | The electronic resource is of high enough quality to serve as a replacement if the original is lost, damaged, or destroyed.
+
 ***
 
 ## **Recommended Metadata**
