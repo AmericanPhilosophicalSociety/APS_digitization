@@ -204,6 +204,12 @@ Video | Moving Image | Video
 **Application:**  
 * _title_ column must be contain a value for Islandora Workbench purposes. This will be the header on the object page, and will display as the object title on collection and search results pages.
 * _field_metadata_title_ column must contain the same value as above in _title_ field. This will display as the object title in the metadata portion of the object page.
+* For all Collection Series, Subseries, and Subcollections: title field should include name of the Parent Collection in parentheses at the end of the title.
+
+  Series I. Correspondence (Theodore Dunham, Jr. Papers)
+  Series II-A (Anthony F. C. Wallace Papers)
+  Subcollection 1 Series I (C. F. Voegelin Papers)
+  
 * For correspondence and like materials: its title should be entered as “Last Name, First Name to First Name Last Name”
 
    Montgomery, Dorcas Armitage to Sarah Franklin Bache, 1783 July 26
