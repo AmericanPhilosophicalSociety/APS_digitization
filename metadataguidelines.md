@@ -303,8 +303,9 @@ Example:
 **Enter Data in Spreadsheet Column:** field_display_hints  
 **Type of field:** Entity reference  
 **Application:**  
-* This value will be added by **Administrator** through a python script; leave blank and do not delete the column.
-* This is only used by Workbench.
+* This value will be added by **Administrator** through a python script for Paged Content only; leave blank and do not delete the column.
+* A value must be added manually for Large Image and PDF content.
+* This field is not necessary for Video or Audio content.
 
 Term name | Used for
 --- | ---
