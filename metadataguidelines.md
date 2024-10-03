@@ -51,11 +51,17 @@ This document is intended as a guide to data entry and descriptive cataloging fo
   *  Enter the folder name that contains the media
   *  The folder name must be the same root as the file name
   
-      Folder name = Mss_Coll_190_001  (this is entered in the file field only)  
-      Filenames within folder in server/external drive = Mss_Coll_190_001-001.tif, Mss_Coll_190_001-002.tif, etc.
+      Folder name = Mss_Ms_Coll_190_001  (this is entered in the file field only)  
+      Filenames within folder in server/external drive = Mss_Ms_Coll_190_001-001.tif, Mss_Ms_Coll_190_001-002.tif, etc.
 
-   *  For all book objects that contain less than 1000 pages/files, use three digits after separator (-)
-   *  For all book objects that contain 1000 pages/files or more, use four digits after separator (-)   
+   *  For all book objects that contain *less than 1000 pages/files*, pad three digits after separator (-)
+
+      Mss_Ms_Coll_190_001_001, Mss_Ms_Coll_190_001_002, Mss_Ms_Coll_190_001_003 ... Mss_Ms_Coll_190_001_999
+  
+   *  For all book objects that contain *1000 pages/files or more*, pad four digits after separator (-)
+
+      Mss_Ms_Coll_190_002_1000, Mss_Ms_Coll_190_002_1001, Mss_Ms_Coll_190_002_1002 ... Mss_Ms_Coll_190_002_3003
+ 
 
 * If you are uploading multiple **Single Graphics, Audio, or Video objects**, the file column should be formatted:
   *  Enter the appropriate **directory path** and individual filename with file extension.
