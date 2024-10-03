@@ -51,7 +51,7 @@ This document is intended as a guide to data entry and descriptive cataloging fo
   *  Enter the folder name that contains the media
   *  The folder name must be the same root as the file name
   
-      Folder name = Mss_Coll_190_001 (this is entered in the _file_ field only)  
+      Folder name = Mss_Coll_190_001  (this is entered in the file field only)  
       Filenames within folder in server/external drive = Mss_Coll_190_001-001.tif, Mss_Coll_190_001-002.tif, etc.
 
    *  For all book objects that contain less than 1000 pages/files, use three digits after separator (-)
