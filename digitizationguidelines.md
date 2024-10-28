@@ -179,12 +179,12 @@ Metadata review should occur before and after upload into the APS Digital Librar
   * Click "add digital object"
   * In drop down menu, click "Create"
   * Fill in Basic information in the following fields:  
-  Title - add title as it appears in digital object  
-  Identifier - node ID  
-  Publish - check box  
+  - Title - add title as it appears in digital object  
+  - Identifier - node ID  
+  - Publish - check box  
   * Click "Add file version" and fill in the following fields:  
-  File URL - full URL, i.e. https://diglib.amphilsoc.org/node/1234  
-  Publish - check box  
+  - File URL - full URL, i.e. https://diglib.amphilsoc.org/node/1234  
+  - Publish - check box  
   * Click "Create and Link to Digital Object"
 4. Click "Save Archival Object"
   * Double check that the item (or digital file) was created in the correct series
