@@ -195,21 +195,21 @@ If you are adding digital object links within the same collection, follow the st
 
 1. Navigate to the collection you intend to add digital object links to and click "Edit"
 2. Once at the most top level of the resource record, click "More" for a dropdown list and choose "Bulk Update Spreasheet"
-3. You will be taken to a page called **Generate a Bulk Update Spreadsheet**
-  * Select the series you would like to see in the spreadsheet
+3. You will be taken to a page called _Generate a Bulk Update Spreadsheet_
+  * Select the series you would like to see in the spreadsheet  
   Note: You can also select at the item/folder level, but this may be challenging for large collections or across multiple series/subseries
 4. Once you've selected the series, deselect all column types **except** for "Digital Objects"
 5. Click "Download Spreadsheet"
 6. Open the downloaded spreadsheet and update the following columns (you may need to unprotect sheet to edit):
-  * Digital Object 1 - Identifier  
+  * _Digital Object 1 - Identifier_  
   Enter node ID
-  * Digital Object 1 - Title
+  * _Digital Object 1_ - Title_  
   Enter title as it appears in digital object
-  * Digital Object 1 - Publish?
+  * _Digital Object 1 - Publish?_  
   Enter true
-  * Digital Object 1 - File URI
+  * _Digital Object 1 - File URI_  
   Enter full URL, i.e. https://diglib.amphilsoc.org/node/1234
-  * Digital Object 1 - File Publish?
+  * _Digital Object 1 - File Publish?_  
   Enter true
 7. Save spreadsheet
 8. On the ASpace user interface, navigate to "Create" for a dropdown list and choose "Background Job" and then "Spreadsheet Bulk Update Job"
