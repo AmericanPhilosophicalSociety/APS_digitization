@@ -171,6 +171,7 @@ Metadata review should occur before and after upload into the APS Digital Librar
 
 ## **Linking Digital Object**
 ### **Instructions for ArchivesSpace**
+If you are adding digital object links to multiple collections, follow the steps below:
 
 1. Open the resource record
   * Click blue "Edit" button next to collection
@@ -188,3 +189,38 @@ Metadata review should occur before and after upload into the APS Digital Librar
   * Click "Create and Link to Digital Object"
 4. Click "Save Archival Object"
   * Double check that the item (or digital file) was created in the correct series
+
+
+If you are adding digital object links within the same collection, follow the steps below to use the ASpace bulk update spreadsheet:
+
+1. Navigate to the collection you intend to add digital object links to and click "Edit"
+2. Once at the most top level of the resource record, click "More" for a dropdown list and choose "Bulk Update Spreasheet"
+3. You will be taken to a page called **Generate a Bulk Update Spreadsheet**
+  * Select the series you would like to see in the spreadsheet
+  Note: You can also select at the item/folder level, but this may be challenging for large collections or across multiple series/subseries
+4. Once you've selected the series, deselect all column types **except** for "Digital Objects"
+5. Click "Download Spreadsheet"
+6. Open the downloaded spreadsheet and update the following columns (you may need to unprotect sheet to edit):
+  * Digital Object 1 - Identifier  
+  Enter node ID
+  * Digital Object 1 - Title
+  Enter title as it appears in digital object
+  * Digital Object 1 - Publish?
+  Enter true
+  * Digital Object 1 - File URI
+  Enter full URL, i.e. https://diglib.amphilsoc.org/node/1234
+  * Digital Object 1 - File Publish?
+  Enter true
+7. Save spreadsheet
+8. On the ASpace user interface, navigate to "Create" for a dropdown list and choose "Background Job" and then "Spreadsheet Bulk Update Job"
+9. Click "Choose File" and select your updated spreadsheet
+10. Click "Start Job"
+11. When the process is complete you will see "Job Completed Hit Refresh"
+  * If the job fails, check the log to see what happened and make changes to the spreadsheet accordingly and try another update job.
+  * If the job is successful, go to the collection in the staff interface and perform a QC on the updates made
+12. View the collection on the public interface to make sure the changes have been adopted  
+  Note: Some updates may take time to appear on the public side
+
+
+ 
+
