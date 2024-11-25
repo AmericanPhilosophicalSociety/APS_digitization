@@ -69,6 +69,7 @@ This document is intended as a guide to data entry and descriptive cataloging fo
 For file names in general:
 * Only use alphanumeric characters without diacritics, and underscores and hyphens, i.e. [a-z] [A-Z] [0-9] [_] [-]
 * Periods should only be used for the file extension.
+* File names and the extensions are case sensitive.
 * File names generally follow this pattern:
 
 Prefix (root) | Separator | Number | Period | Extension 
