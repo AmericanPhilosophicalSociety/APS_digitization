@@ -423,14 +423,14 @@ Replacement | The electronic resource is of high enough quality to serve as a re
 **Enter Data into Spreadsheet Column:** field_description_long  
 **Type of field:** Text (formatted, long)  
 **Application:**  
-* This field is used for a free-text account of the intellectual content of the original item. For this reason, the content in the _abstract_ field can be a little longer than in other fields. It can be taken from the original item or created.
-* Captions or inscriptions that are not used in the Title field may be included in the _abstract_ field.
+* This field is used for a free-text account of the intellectual content of the original item. For this reason, the content in the _description_ field can be a little longer than in other fields. It can be taken from the original item or created.
+* Captions or inscriptions that are not used in the Title field may be included in the _description_ field.
 * The _description_ should be written in complete sentences and the field should read as a single block of text. The block of text should end with a period.
 * Do not use abbreviations, ampersands or paragraph and line breaks. Maintain standard capitalization rules. Do not use all capital letters to set words or phrases apart or to denote importance.
 * This field may include information that a user will be able to see in the item. For example, does the item contain a sketch or illustration? How about an inscription or caption?
 
 Additional information regarding Description:  
-* You may want to include keywords in your text that end users will likely search for that are not already included in the _title_ or _subject_ fields. Incorporating keywords can provide additional access points for searching. This element provides end users with information about the digital resource that assists them in making a judgment about its likely usefulness, and also provides context, if needed, for controlled vocabulary used in the record. For example, a photograph of trolleys would have street railroads in the subject field using the Thesaurus for Graphic Materials (TGM). The more common word, trolleys, could be included in the _abstract_.
+* You may want to include keywords in your text that end users will likely search for that are not already included in the _title_ or _subject_ fields. Incorporating keywords can provide additional access points for searching. This element provides end users with information about the digital resource that assists them in making a judgment about its likely usefulness, and also provides context, if needed, for controlled vocabulary used in the record. For example, a photograph of trolleys would have street railroads in the subject field using the Thesaurus for Graphic Materials (TGM). The more common word, trolleys, could be included in the _description_.
 * Be descriptive but only include detail that would be helpful to users!
 
 **Examples:**
