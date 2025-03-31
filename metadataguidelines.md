@@ -40,10 +40,10 @@ This document is intended as a guide to data entry and descriptive cataloging fo
 
 ## **Quick Links**
 [APS Workbench spreadsheet](https://docs.google.com/spreadsheets/d/1Igs5TsRoeOU9Z7pcPAZQ0JGIyc40u_G8QvX9-0OppWU/edit?gid=82179794#gid=82179794)   
-[APS Digitization Workflows Guide](https://docs.google.com/presentation/d/15us_W0DNmsiV9rSQhG3bORyFXYGUq1jJLOSewVioXuA/edit?slide=id.g583e451791_0_92#slide=id.g583e451791_0_92) 
-[APS Workbench Bulk Ingest instructions for Book Objects using Python Script](https://docs.google.com/document/d/1y-pQYvPH7l6pQwdz1sCbWMMkAQXOkE-xnH0ZbqNhahU/edit?tab=t.0)
-[APS Workbench Bulk Ingest instructions for Single Graphics, Audio, and Video Objects](https://docs.google.com/document/d/1sO3EBnvfRiXVlpdq3t4PgFLeaulHdSXfO27edXxEA6E/edit?tab=t.0)
-[Workbench Bulk Tasks instructions](https://docs.google.com/document/d/1lR0slYVEJQM5YXvhAPSc_lCGtt7CrzVOxUWQT4Eywdo/edit?tab=t.0)
+[APS Digitization Workflows Guide](https://docs.google.com/presentation/d/15us_W0DNmsiV9rSQhG3bORyFXYGUq1jJLOSewVioXuA/edit?slide=id.g583e451791_0_92#slide=id.g583e451791_0_92)  
+[APS Workbench Bulk Ingest instructions for Book Objects using Python Script](https://docs.google.com/document/d/1y-pQYvPH7l6pQwdz1sCbWMMkAQXOkE-xnH0ZbqNhahU/edit?tab=t.0)  
+[APS Workbench Bulk Ingest instructions for Single Graphics, Audio, and Video Objects](https://docs.google.com/document/d/1sO3EBnvfRiXVlpdq3t4PgFLeaulHdSXfO27edXxEA6E/edit?tab=t.0)  
+[Workbench Bulk Tasks instructions](https://docs.google.com/document/d/1lR0slYVEJQM5YXvhAPSc_lCGtt7CrzVOxUWQT4Eywdo/edit?tab=t.0)  
 
 
 ## **Required Metadata**
