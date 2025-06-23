@@ -76,7 +76,7 @@ Item Type | Resolution (dpi) | Color Space | Bit Depth | File Format | Notes
 Manuscripts | 400 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility
 Maps and graphics | 500-600 | Color | 24-bit | Raw TIFF | 
 Typescript and printed books | 300 | Color | 24-bit | Raw TIFF | If for reference, scan as PDF or jpeg
-Typescript and printed book with images | 400 | Color | 24-bit | Raw TIFF | If for reference, scan as PDF or jpeg
+Image(s) within a typescript and printed book | 400 | Color | 24-bit | Raw TIFF | If for reference, scan as PDF or jpeg
 
 ## **File Storage**
 Before scanning begins, it is important to create a folder to save the image files. All scanned images should be saved to the APS servers. Files will live here temporarily until they are ready for long-term, public-facing storage in the APS Digital Library. 
