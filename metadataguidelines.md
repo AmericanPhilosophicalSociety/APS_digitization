@@ -18,6 +18,13 @@ This document is intended as a guide to data entry and descriptive cataloging fo
 {:toc}
 </details>
 
+## **Quick Links**
+[APS Workbench spreadsheet](https://docs.google.com/spreadsheets/d/1Igs5TsRoeOU9Z7pcPAZQ0JGIyc40u_G8QvX9-0OppWU/edit?gid=82179794#gid=82179794)   
+[APS Digitization Workflows Guide](https://docs.google.com/presentation/d/15us_W0DNmsiV9rSQhG3bORyFXYGUq1jJLOSewVioXuA/edit?slide=id.g583e451791_0_92#slide=id.g583e451791_0_92)  
+[APS Workbench Bulk Ingest instructions for Book Objects using Python Script](https://docs.google.com/document/d/1y-pQYvPH7l6pQwdz1sCbWMMkAQXOkE-xnH0ZbqNhahU/edit?tab=t.0)  
+[APS Workbench Bulk Ingest instructions for Single Graphics, Audio, and Video Objects](https://docs.google.com/document/d/1sO3EBnvfRiXVlpdq3t4PgFLeaulHdSXfO27edXxEA6E/edit?tab=t.0)  
+[Workbench Bulk Tasks instructions](https://docs.google.com/document/d/1lR0slYVEJQM5YXvhAPSc_lCGtt7CrzVOxUWQT4Eywdo/edit?tab=t.0)  
+
 ## **Each field includes the following information**
 **Field name:** Display label for the name of the field in Islandora.  
 **Definition:** A combination of MODS definitions, Islandora Workbench definitions, and APS modifications as appropriate.  
@@ -37,13 +44,6 @@ This document is intended as a guide to data entry and descriptive cataloging fo
 * Where multiple values are appropriate in a repeatable field (names, subjects, languages, etc.), you **must** separate them with a pipe "\|" and no spaces in between values when entering into the workbench spreadsheet.
 * Avoid the use of abbreviations. Writing words out enables users to find items consistently and also helps to avoid confusion (such as abbreviating both County and Company to “Co.”). An exception to this rule is the use of “St.” in a city or place name (e.g. St. Peter, St. Paul or St. Benedict).
 * **Spell-check your metadata.** After entering your information into the MIK spreadsheet, run the spell check to catch any misspelled words. Also, verify the spelling of local place names and individual’s names that may not be caught during the spell-check process.
-
-## **Quick Links**
-[APS Workbench spreadsheet](https://docs.google.com/spreadsheets/d/1Igs5TsRoeOU9Z7pcPAZQ0JGIyc40u_G8QvX9-0OppWU/edit?gid=82179794#gid=82179794)   
-[APS Digitization Workflows Guide](https://docs.google.com/presentation/d/15us_W0DNmsiV9rSQhG3bORyFXYGUq1jJLOSewVioXuA/edit?slide=id.g583e451791_0_92#slide=id.g583e451791_0_92)  
-[APS Workbench Bulk Ingest instructions for Book Objects using Python Script](https://docs.google.com/document/d/1y-pQYvPH7l6pQwdz1sCbWMMkAQXOkE-xnH0ZbqNhahU/edit?tab=t.0)  
-[APS Workbench Bulk Ingest instructions for Single Graphics, Audio, and Video Objects](https://docs.google.com/document/d/1sO3EBnvfRiXVlpdq3t4PgFLeaulHdSXfO27edXxEA6E/edit?tab=t.0)  
-[Workbench Bulk Tasks instructions](https://docs.google.com/document/d/1lR0slYVEJQM5YXvhAPSc_lCGtt7CrzVOxUWQT4Eywdo/edit?tab=t.0)  
 
 
 ## **Required Metadata**
@@ -695,7 +695,7 @@ Examples:
 * Use authorized terms from LCSH, LCNAF, or another thesaurus whenever possible.
   *  LC Subject Headings: <http://id.loc.gov/authorities/subjects.html> (Use for topical subjects)
   *  LC Name Authority File: <http://id.loc.gov/authorities/names.html> (Use for name and location subjects)
-  *  LC Authorites (all): <https://authorities.loc.gov/webvoy.htm> 
+  *  LC Authorites (all): <https://authorities.loc.gov> 
   *  FAST: <https://fast.oclc.org/searchfast/>
   *  Homosaurus: <https://homosaurus.org/>  
   *  CNAIR controlled vocabulary : <https://indigenousguide.amphilsoc.org/culture_browse/all>
