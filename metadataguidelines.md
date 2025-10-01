@@ -2,7 +2,7 @@
 layout: page
 title: APS Digital Library Metadata Guidelines
 permalink: /metadata/
-last_modified_date: June 21 2024
+last_modified_date: October 1 2025
 ---
 
 # {{ page.title }}
@@ -658,7 +658,7 @@ Examples:
 ### **Place Published**
 **Definition:** The name of the entity that published, printed, distributed, released, issued, or produced the resource.  
 **Obligation:** Recommended if applicable; repeatable  
-**Enter Data into Spreadsheet Column:** field_place_publisher  
+**Enter Data into Spreadsheet Column:** field_place_published  
 **Type of field:** Entity reference  
 **Application:**  
 * If the original item was published and the publisher and/pr place is known, enter data in this field.
