@@ -65,10 +65,10 @@ Epson GT-15000 | Flatbed scanner | 11.5” x 16.5” | Photographic prints, grap
 CopiBook OS XD | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed)  
 
 ![epson expression 1200XL flatbed scanner]({{ site.baseurl }}/assets/epson-1200.jpg)  
-(Espon Expression 1200XL flatbed scanner pictured above)
+*(Espon Expression 1200XL flatbed scanner pictured above)*
 
 ![Copibook OS XD book scanner]({{ site.baseurl }}/assets/copi-book-osxd.png)  
-(Copibook OS XD book scanner pictured above)
+*(Copibook OS XD book scanner pictured above)*
 
 *  Bound material, maps, and oversized material should be scanned on a CopiBook book scanner. Detailed instructions on the CopiBook OS XD can be found [here](https://americanphilosophicalsociety.github.io/APS_digitization/copibook/).
 *  Unbound textual material should be scanned on an Epson Flatbed Scanner. Detailed instructions on the Epson Expression 12000 XL can be found [here](https://americanphilosophicalsociety.github.io/APS_digitization/epson-flatbed/).
@@ -80,9 +80,12 @@ All digitized material should be scanned according to specifications based upon 
 Item Type | Resolution (dpi) | Color Space | Bit Depth | File Format | Notes
 --- | :---: | :---: | :---: | :---: | :---:
 Manuscripts | 400 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility
-Maps and graphics | 500-600 | Color | 24-bit | Raw TIFF | 
+Oversized items: Maps, Posters, etc. | 500 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility
 Typescript and printed books | 300 | Color | 24-bit | Raw TIFF | If for reference, scan as PDF or jpeg
 Image(s) within a typescript and printed book | 400 | Color | 24-bit | Raw TIFF | If for reference, scan as PDF or jpeg
+Prints and Photographs | 600 | Color | 48-bit | raw TIFF | Higher resolution if item is > 8" x 10"
+Photographic transparencies positive (color and b/w) | 1200 | Color or Grayscale as appropriate | 48-bit color or 16-bit grayscale | Raw TIFF | Higher resolution for smaller items (35mm will get 2400 dpi)
+Photographic transparencies negative (color and b/w) | 2000 | Color or Grayscale as appropriate | 48-bit color or 16-bit grayscale | Raw TIFF | Higher resolution for smaller items (35mm will get 4000 dpi)
 
 ## **File Storage**
 Before scanning begins, it is important to create a folder to save the image files. All scanned images should be saved to the APS servers. Files will live here temporarily until they are ready for long-term, public-facing storage in the APS Digital Library. 
@@ -137,7 +140,7 @@ For various scenarios below, always use your best judgment and when in doubt, co
   *  This will occur most often with bound material, however, loose material may also contain fasteners that cannot be removed.
  
 ![manuscript example]({{ site.baseurl }}/assets/manuscript-example.png)  
-(example of a folded manuscript letter scanned as three separate images)
+*(example of a folded manuscript letter scanned as three separate images)*
  
 ## **Post Processing**
 When viewing images in Image Viewer or Photoshop, check for:
