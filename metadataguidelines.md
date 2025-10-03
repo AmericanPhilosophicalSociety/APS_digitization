@@ -749,11 +749,11 @@ Additional information regarding Subjects:
 ***
 
 ### **Access Control**
-Definition:  
-Obligation: Optional; not repeatable  
-Enter Data into Spreadsheet Column: field_access_terms  
-Type of field: Entity reference  
-Application:  
+**Definition:** Specifies access restrictions for the resource.
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** field_access_terms  
+**Type of field:** Entity reference  
+**Application:**  
 * Uses terms from the Islandora Access Taxonomy below:
   *  N/A
   *  Admin-only access
@@ -779,11 +779,11 @@ Application:
 ***
 
 ### **Form**
-Definition: A particular physical presentation of a resource, including the physical form or medium of material for a resource.  
-Obligation: Optional; not repeatable  
-Enter Data into Spreadsheet Column: field_physical_form  
-Type of field: Entity reference  
-Application:  
+**Definition:** A particular physical presentation of a resource, including the physical form or medium of material for a resource.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** field_physical_form  
+**Type of field:** Entity reference  
+**Application:**  
 * Record the form of the digitized and analog original resources if such information will be useful.
 * Use a term from the following list: <https://www.loc.gov/standards/valuelist/marccategory.html>
 
@@ -831,11 +831,11 @@ Application:
 ***
 
 ### **Subtitle**
-Definition: A word, phrase, character, or group of characters that contains the remainder of the title information after the title proper.  
-Obligation: Optional; not repeatable  
-Enter Data into Spreadsheet Column: field_subtitle  
-Type of field: Text (plain)  
-Application:  
+**Definition:** A word, phrase, character, or group of characters that contains the remainder of the title information after the title proper.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** field_subtitle  
+**Type of field:** Text (plain)  
+**Application:**  
 * A main title is required before subtitle(s) may be used.  
 * Enter the formal subtitle exactly as it appears on the item.  
 * Do not end a subtitle with a period. Do not enter a colon after the title or before the subtitle.
@@ -843,11 +843,11 @@ Application:
 ***
 
 ### **URL Alias**
-Definition: An alias for a default URL.  
-Obligation: Optional; not repeatable  
-Enter Data into Spreadsheet Column: url_alias  
-Type of field: Text (plain)  
-Application:  
+**Definition:** An alias for a default URL.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** url_alias  
+**Type of field:** Text (plain)  
+**Application:**   
 * Use this field if you have multiple objects with the same exact title.
 * Put the URL you would like for each of your objects, starting with the “/” following your root domain.
 * So if your site is mysite.com and an object on your existing site with a title of “My Object” has a URL of mysite.com/islandora/object/islandora:123, you could put in your CSV a URL alias for that object of /islandora/object/islandora:123. On ingest, that object will get a custom URL instead of /islandora/my-object.
