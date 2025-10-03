@@ -153,7 +153,7 @@ When viewing images in Image Viewer or Photoshop, check for:
 * Skew
   *  Straighten only in extreme cases.
  
-![post processing using photoshop]({{ site.baseurl }}/assets/post.png)
+![post processing using photoshop]({{ site.baseurl }}/assets/post-photoshop.png)
  
 If necessary, Digitization staff will perform any post scan/digitization adjustments. Please contact CDS staff if you have any questions or concerns about the faithfulness of the scanned image(s) to the original(s).
 
