@@ -789,6 +789,16 @@ Application:
 
 ***
 
+### **Local Identifier**
+**Definition:** A locally assigned identifier used to uniquely identify the resource within a specific institution, repository, or system.  
+**Obligation:** Optional; repeatable  
+**Enter Data into Spreadsheet Column:** field_local_identifier  
+**Type of field:** Text (formatted, long)  
+**Application:**  
+* This identifier is not intended to be globally unique but is meaningful within a local context. It may include catalog record numbers, accession numbers, internal database keys, or other insititution-specific IDs.
+
+***
+
 ### **Note**
 **Definition:** General textual information relating to a resource.  
 **Obligation:** Optional; repeatable  
@@ -808,6 +818,15 @@ Application:
 * Blank pages were not scanned.
 * (example of existing metadata made by an institution) Probably written by Esther Reed who assumed leadership of the women’s relief effort in Philadelphia. See Reed, William B. The life of Esther De Berdt, afterwards Esther Reed, of Pennsylvania (Philadelphia, 1853), p. 313-324.;Followed by, on p. [2]: Ideas, relative to the manner of forwarding to the American soldiers, the presents of the American women.;Imprint from colophon. The American Antiquarian Society copy was found bound after the June 10, 1780, issue of the Pennsylvania packet, printed at Philadelphia by John Dunlap. Articles related to the women’s efforts were printed in the Pennsylvania packet on June 13, 17, 27, July 8, and Nov. 4, 1780.
 
+***
+
+### **Related Object**
+**Definition:** Another repository item (digital object in the APS Digital Library) that is related to the primary resource being described. 
+**Obligation:** Optional; repeatable  
+**Enter Data into Spreadsheet Column:** field_related_object    
+**Type of field:** Entity reference (must be a repsoitory item)  
+**Application:**  
+* Enter the object’s node ID that is related to the current object being described.
 
 ***
 
