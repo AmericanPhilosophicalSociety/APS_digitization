@@ -11,6 +11,9 @@ This document serves as a guide for digitization practices supporting the Americ
 
 This document will be updated as needed to reflect changes in software, hardware, or digitization standards.
 
+![copibook os xd book scanner]({{ site.baseurl }}/assets/copi-book-osxd.png)
+
+
 ## Step 1: 
 Open Limb Capture program from desktop. 
 
