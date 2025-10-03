@@ -64,16 +64,16 @@ Epson Expression 12000XL | Flatbed scanner | 12.25” x 17” | Photographic pri
 Epson GT-15000 | Flatbed scanner | 11.5” x 16.5” | Photographic prints, graphic materials, unbound textual materials (manuscript or printed)
 CopiBook OS XD | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed)  
 
-![epson expression 1200XL flatbed scanner]({{ site.baseurl }}/assets/epson-1200.jpg) 
+![epson expression 1200XL flatbed scanner]({{ site.baseurl }}/assets/epson-1200.jpg)  
 (Espon Expression 1200XL flatbed scanner pictured above)
 
-![Copibook OS XD book scanner]({{ site.baseurl }}/assets/copi-book-osxd.png)
+![Copibook OS XD book scanner]({{ site.baseurl }}/assets/copi-book-osxd.png)  
 (Copibook OS XD book scanner pictured above)
 
-*  Bound material should be scanned on a CopiBook Book Scanner. Detailed instructions on the CopiBook OS XD can be found here (LINK) and instructions on the CopiBook Cobalt can be found here (LINK).
-*  Unbound textual material should be scanned on an Epson Flatbed Scanner. Detailed instructions on the Epson Expression 12000 XL can be found here (LINK) and on the Epson FT-15000 can be found here (LINK).
-*  Maps and similarly oversized materials should be scanned on a CopiBook Book Scanner. Detailed instructions on the CopiBook OS XD can be found here (LINK).
+*  Bound material, maps, and oversized material should be scanned on a CopiBook book scanner. Detailed instructions on the CopiBook OS XD can be found [here](https://americanphilosophicalsociety.github.io/APS_digitization/copibook/).
+*  Unbound textual material should be scanned on an Epson Flatbed Scanner. Detailed instructions on the Epson Expression 12000 XL can be found [here](https://americanphilosophicalsociety.github.io/APS_digitization/epson-flatbed/).
 *  Extra oversized material will need to be consulted with your project supervisor.
+
 
 All digitized material should be scanned according to specifications based upon their item type. Follow the below standards for archival-quality scans:
 
@@ -105,16 +105,14 @@ Use Bulk Utility Rename software to bulk rename files. Bulk Utility Rename is a 
 
 For special cases, consult your supervisor.
 
-**Back ups**
-Digital preservation is a central aspect of the APS, and is provided by continual backups, server maintenance and file-level services. The APS hosts all data on three onsite servers and a host of virtual machines. All data is backed up remotely in consistent rotations, and all daily data modification is mirrored to an offsite data center in West Chester, Pennsylvania. For added security, the APS also enabled the Datto Endpoint Server and Disaster Recovery Solution.
+**Back ups**  
+Digital preservation is a central aspect of the APS, and is provided by continual backups, server maintenance and file-level services. The APS hosts all data on three onsite servers and a host of virtual machines. All data is backed up remotely in consistent rotations, and all daily data modification is mirrored to an offsite data center. For added security, the APS also enabled the Datto Endpoint Server and Disaster Recovery Solution.
 
 ## **Metadata Entry and Formatting**
 Uploads into the APS Digital Library will be carried out using Islandora Workbench, a command-line tool that allows creation, updating, and deletion of Islandora content from CSV data. This tool allows the simultaneous upload of items within multiple collections into the Islandora repository, complete with metadata. In order for Workbench to properly associate metadata with its parent and children, metadata entries must be formatted in a certain way. 
 
 There are two spreadsheets that will be used for ingest. Depending on what type of format(s) you are ingesting, you will use either the Book Objects or Other Content Types spreadsheets and instructions. Both Workbench spreadsheets are set up for simple entry of metadata for multiple items. Required fields are rendered light red. Please see the APS Digital Library Metadata Guidelines for detailed information about each field in the spreadsheet.
 
-_For special digitization projects:_
-There will be a Workbench sheet within each [_Collection Metadata Management_ spreadsheet](. In addition to the formatted Workbench sheet, the Collection Metadata Management spreadsheet also contains an _Inventory_ sheet where you will keep track of various stages of the digitization process, including scanning, metadata creation, and quality control. The Inventory sheet is meant to be used for tracking workflow, as well as a “working document” for creation of collection metadata during scanning and/or quality control.  Digitization Technicians should enter “rough” metadata into the Inventory sheet and enter complete, correctly formatted metadata to the Workbench sheet.
 
 ## **Image Capture**
 For various scenarios below, always use your best judgment and when in doubt, consult your project supervisor or CDS staff!
@@ -138,7 +136,8 @@ For various scenarios below, always use your best judgment and when in doubt, co
   3. Insert by itself
   *  This will occur most often with bound material, however, loose material may also contain fasteners that cannot be removed.
  
-![manuscript example]({{ site.baseurl }}/assets/manuscript-example.png) 
+![manuscript example]({{ site.baseurl }}/assets/manuscript-example.png)  
+(example of a folded manuscript letter scanned as three separate images)
  
 ## **Post Processing**
 When viewing images in Image Viewer or Photoshop, check for:
