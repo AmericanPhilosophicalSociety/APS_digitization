@@ -64,9 +64,11 @@ Epson Expression 12000XL | Flatbed scanner | 12.25” x 17” | Photographic pri
 Epson GT-15000 | Flatbed scanner | 11.5” x 16.5” | Photographic prints, graphic materials, unbound textual materials (manuscript or printed)
 CopiBook OS XD | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed)  
 
-![epson expression 1200XL flatbed scanner]({{ site.baseurl }}/assets/epson-1200.jpg)
+![epson expression 1200XL flatbed scanner]({{ site.baseurl }}/assets/epson-1200.jpg) 
+(Espon Expression 1200XL flatbed scanner pictured above)
 
 ![Copibook OS XD book scanner]({{ site.baseurl }}/assets/copi-book-osxd.png)
+(Copibook OS XD book scanner pictured above)
 
 *  Bound material should be scanned on a CopiBook Book Scanner. Detailed instructions on the CopiBook OS XD can be found here (LINK) and instructions on the CopiBook Cobalt can be found here (LINK).
 *  Unbound textual material should be scanned on an Epson Flatbed Scanner. Detailed instructions on the Epson Expression 12000 XL can be found here (LINK) and on the Epson FT-15000 can be found here (LINK).
@@ -92,7 +94,7 @@ The files should be arranged by collection (prefixed with the collection call nu
   *  Folder name = Mss_973_D32_001 ;
   *  Filenames within folder = Mss_973_D32_001-001.tif, Mss_973_D32_001-002.tif, Mss_973_D32_001-003.tif, etc.
 
-![file explorer example file structure]({{ site.baseurl }}/assets/file-explorer.png)
+![file explorer example file structure]({{ site.baseurl }}/assets/file-format.png)
 
 
 Use Bulk Utility Rename software to bulk rename files. Bulk Utility Rename is a powerful and user-friendly tool designed to efficiently rename multiple files and folders at once.
