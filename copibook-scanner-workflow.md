@@ -85,9 +85,11 @@ Adjust the marquee to properly capture the image.
 ## Step 7:  
 Once frames are ready and properly adjusted, scanning can begin!  
  * Press either of the scan buttons on the scanner controls or click the Scan button on the right bottom side of the window.  
-   When the Scan button is selected, a progress bar will appear. The bar will initially display red, then change to yellow, at which point you may turn the page. Once it turns green, the system is ready to begin the next scan.  
-   **Important**: Starting a scan while the progress bar is still red or yellow may cause the program to crash.  
-   The duration of each stage (red, yellow, green) may vary depending on the file size, file type, and the dimensions of the scanned material.  
+
+
+   *When the Scan button is selected, a progress bar will appear. The bar will initially display red, then change to yellow, at which point you may turn the page. Once it turns green, the system is ready to begin the next scan.*  
+   ***Important**: Starting a scan while the progress bar is still red or yellow may cause the program to crash.*  
+   *The duration of each stage (red, yellow, green) may vary depending on the file size, file type, and the dimensions of the scanned material.*  
 
    
  * Always scan both sides of a rare manuscript item/page dated prior to 1850, even if blank. See other image capture scenarios [here](https://americanphilosophicalsociety.github.io/APS_digitization/digitization/#image-capture).  
