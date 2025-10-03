@@ -749,7 +749,7 @@ Additional information regarding Subjects:
 ***
 
 ### **Access Control**
-**Definition:** Specifies access restrictions for the resource.
+**Definition:** Specifies access restrictions for the resource.  
 **Obligation:** Optional; not repeatable  
 **Enter Data into Spreadsheet Column:** field_access_terms  
 **Type of field:** Entity reference  
