@@ -31,7 +31,7 @@ Determine scan specs by consulting [Digitization Guidelines](https://americanphi
  * In the Main Settings menu, choose the appropriate settings.  
 
 *Most common settings:*  
-**Mode**: Photo Mode  
+**Mode**: Photo Mode (*avoid Document Mode, especially on handwritten documents, as this alters the exposure*) 
 **Document Source**: Scanner Glass  
 **Document Type**: Reflective  
 **Scanning Quality**: Standard  
