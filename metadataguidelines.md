@@ -594,10 +594,12 @@ Additional information regarding Genre:
 **Type of field:** Entity reference  
 **Application:**  
 * Format as: Language term (language abbreviation)  
-* Assign a three-letter language code from ISO 639-2 that matches language term	
-  *  B for bibliographic
+* Assign a three-letter language code from **ISO 639-2B** that matches language term	
+  *  B for bibliographic  
+  *  For Indigenous languages use: **IDO 639-3** codes
+  *  You can also refer to: <https://indigenousguide.amphilsoc.org/language_browse>
   *  <https://www.loc.gov/standards/iso639-2/php/code_list.php>
-* For Indigenous languages use: https://indigenousguide.amphilsoc.org/language_browse 
+  *  <https://iso639-3.sil.org/code_tables/639/data>
 * Include all relevant languages (do not include languages that are merely referenced or only appear as single words in text of another language)
 * If there is more than one language:
   *  separate by pipe with no spaces between terms
