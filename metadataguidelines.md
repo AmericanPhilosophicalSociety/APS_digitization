@@ -850,7 +850,7 @@ Additional information regarding Subjects:
 **Enter Data into Spreadsheet Column:** url_alias  
 **Type of field:** Text (plain)  
 **Application:**   
-* Use this field if you have multiple objects with the same exact title.
+* Use this field if the title of an object is over 100 characters AND/OR there are multiple objects with the same exact title.  
 * Put the URL you would like for each of your objects, starting with the “/” following your root domain.
 * So if your site is mysite.com and an object on your existing site with a title of “My Object” has a URL of mysite.com/islandora/object/islandora:123, you could put in your CSV a URL alias for that object of /islandora/object/islandora:123. On ingest, that object will get a custom URL instead of /islandora/my-object.
 
