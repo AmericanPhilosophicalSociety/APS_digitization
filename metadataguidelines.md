@@ -56,50 +56,49 @@ This document is intended as a guide to data entry and descriptive cataloging fo
 **Application:**  
 * If you are uploading multiple **Book objects** (objects with multiple pages), the file column should be formatted:
   *  Enter the folder name that contains the media
-  *  The folder name must be the same root as the file name
+  *  **Folder name** must be the same root as the **file name**  
   
-      Folder name = Mss_Ms_Coll_190_001  (this is entered in the file field only)  
-      Filenames within folder in server/external drive = Mss_Ms_Coll_190_001-001.tif, Mss_Ms_Coll_190_001-002.tif, etc.
+      Folder name = Mss_Ms_Coll_190_b1_f1  (this is entered in the file field only)  
+      Filenames within folder in server/external drive = Mss_Ms_Coll_190_b1_f1-001.tif, Mss_Ms_Coll_190_b1_f1-002.tif, etc.
 
    *  For all book objects that contain *less than 1000 pages/files*, pad three digits after separator (-)
 
-      Mss_Ms_Coll_190_001_001, Mss_Ms_Coll_190_001_002, Mss_Ms_Coll_190_001_003 ... Mss_Ms_Coll_190_001_999
+      Mss_Ms_Coll_190_b1_f1-001, Mss_Ms_Coll_190_b1_f1-002, ... Mss_Ms_Coll_190_b1_f1-999
   
    *  For all book objects that contain *1000 pages/files or more*, pad four digits after separator (-)
 
-      Mss_Ms_Coll_190_002_1000, Mss_Ms_Coll_190_002_1001, Mss_Ms_Coll_190_002_1002 ... Mss_Ms_Coll_190_002_3003
+      Mss_Ms_Coll_190_b1_f1-1000, Mss_Ms_Coll_190_b1_f1-1001, ... Mss_Ms_Coll_190_b1_f1-3003
  
 
 * If you are uploading multiple **Single Graphics, Audio, or Video objects**, the file column should be formatted:
-  *  Enter the appropriate **directory path** and individual filename with file extension.
+  *  Enter the appropriate **directory path** and individual filename **with file extension**.
 
-For file names in general:
-* Only use alphanumeric characters without diacritics, and underscores and hyphens, i.e. [a-z] [A-Z] [0-9] [_] [-]
-* Periods should only be used for the file extension.
-* File names and the extensions are case sensitive.
-* File names generally follow this pattern:
-
-Prefix (root) | Separator | Number | Period | Extension 
+Prefix (Collection number root, box number, folder number) | Separator | Number | Period | Extension 
 --- | --- | --- | --- | --- |
-Mss_Ms_Coll_190 | - | 001 | . | tif 
+Mss_Ms_Coll_190_b1_f1 | - | 001 | . | tif 
 
-  *  The **prefix** identifies the file as part of a collection, and should contain the collection call number, item identifier, or any other useful information. It should not be long, and is not intended to include all necessary metadata. It cannot contain hyphens, but can contain underscores.
-  *  The **separator** (a hyphen) separates the prefix from the file number.
+  *  The **prefix** identifies the file as part of a collection, and should contain the collection call number, box number, and folder number. It should not be long, and is not intended to include all necessary metadata. It cannot contain hyphens, but can contain underscores.
+  *  The **separator** (a hyphen) separates the prefix from the file number sequence.
   *  The **number** is used to distinguish sequential files, e.g. pages in a folder or book, or photographs in an album. It should be padded to at least three digits, resulting in e.g. [001, 002,..., 099, 100] instead of [1, 2,..., 99, 100], which may alphabetize differently on different systems.
   *  The **period** separates the main file name from the extension, and should only be used once.
   *  The **extension** identifies the type of file, and is typically added automatically.
 
+For file names in general:
+* Only use alphanumeric characters without diacritics, and underscores and hyphens, i.e. [a-z] [A-Z] [0-9] [_] [-]  
+* Periods should only be used for the file extension.  
+* File names and the extensions are case sensitive.  
+
 The Bulk Rename Utility application can be used to apply bulk changes to both folder and file names. 
 
-**Examples:**
-* Book object:
-  *  Mss_B_F_327_001
-  *  Coll_190_001
-  *  Am_23
-* Other content types (Graphic, Audio, Video):
-  *  /mnt/ingest/data/Mss_497_3_Am4-001.mp4
-  *  /mnt/ingest/data/Mss_B_P31_F8_62_5.tif
-  *  /mnt/ingest/data/audio9177.wav
+**Examples:**  
+* Book object:  
+  *  Mss_B_F_327_b11_f37  
+  *  SMs_Coll_160_b1_f3  
+  *  Am_23  
+* Other content types (Graphic, Audio, Video):  
+  *  /mnt/ingest/data/Mss_497_3_Am4-001.mp4  
+  *  /mnt/ingest/data/Mss_B_P31_b5_f2-001.pdf  
+  *  /mnt/ingest/data/audio9177.wav  
 
 ***
 
