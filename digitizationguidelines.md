@@ -207,7 +207,7 @@ If you are adding digital object links to multiple collections, follow the steps
   _Identifier_ - enter node ID  
   _Publish_ - check box  
   * Click "Add file version" and fill in the following fields:  
-  _File URL_ - enter full URL, i.e. https://diglib.amphilsoc.org/node/1234  
+  _File URL_ - enter URL with node ID number (not the URL alias), i.e. https://diglib.amphilsoc.org/node/1234  
   _Publish_ - check box  
   * Click "Create and Link to Digital Object"
 4. Click "Save Archival Object"
@@ -231,7 +231,7 @@ If you are adding digital object links within the same collection, follow the st
   * _Digital Object 1 - Publish?_  
   Enter true
   * _Digital Object 1 - File URI_  
-  Enter full URL, i.e. https://diglib.amphilsoc.org/node/1234
+  Enter URL with node ID number (not the URL alias), i.e. https://diglib.amphilsoc.org/node/1234  
   * _Digital Object 1 - File Publish?_  
   Enter true
 7. Save spreadsheet
