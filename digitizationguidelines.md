@@ -95,14 +95,15 @@ File organization and naming is a vital component of maintaining a clear connect
 Use the following directory structure and file naming conventions:  
 * **Folder Structure**:  
   *  Collection number - Collection name  
-  *  Collection series name and number  
+  *  Collection series name and number
+  *  Folder title exactly as it appears in the finding aid  
   *  Collection number root, box number, and folder number  
  
 *  **File name**:  
   *  Collection number root, box number, folder number, followed by a three-digit sequence number  
 
 **Example**:  
-P:\Digital Library Staging Area\Mss_Ms_Coll_190 - Charles Thomas Jackson Papers\Series I. Correspondence\Mss_Ms_Coll_190_b1_f1\Mss_Ms_Coll_190_b1_f1-001  
+P:\Digital Library Staging Area\Mss_Ms_Coll_190 - Charles Thomas Jackson Papers\Series I. Correspondence\Abbot, J. H. to Charles Thomas Jackson, 1849 February 6\Mss_Ms_Coll_190_b1_f1\Mss_Ms_Coll_190_b1_f1-001  
 
 ![file explorer example file structure]({{ site.baseurl }}/assets/file-format.png)
 
