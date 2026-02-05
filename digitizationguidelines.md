@@ -90,12 +90,19 @@ Photographic transparencies negative (color and b/w) | 2000 | Color or Grayscale
 ## **File Storage**
 Before scanning begins, it is important to create a folder to save the image files. All scanned images should be saved to the APS servers. Files will live here temporarily until they are ready for long-term, public-facing storage in the APS Digital Library. 
 
-File organization and naming is a vital component of maintaining a clear connection between a physical object and its corresponding digital surrogate. A good guideline to follow is to imagine being someone else, or you in a year, looking at your scans - is it obvious what they are? Are they unambiguously one specific folder or item in the finding aid?
+File organization and naming is a vital component of maintaining a clear connection between a physical object and its corresponding digital surrogate. A good guideline to follow is to imagine being someone else, or you in a year, looking at your scans - is it obvious what they are? A clear, consistent structure also prevents duplicated work across departments and ensures uniformity in all digitized materials.  
 
-The files should be arranged by collection (prefixed with the collection call number or accession number).
-* The folder name must be the same root as the file name
-  *  Folder name = Mss_973_D32_001 ;
-  *  Filenames within folder = Mss_973_D32_001-001.tif, Mss_973_D32_001-002.tif, Mss_973_D32_001-003.tif, etc.
+Use the following directory structure and file naming conventions:  
+* **Folder Structure**:  
+  *  Collection number - Collection name  
+  *  Collection series name and number  
+  *  Collection number root, box number, and folder number  
+ 
+*  **File name**:  
+  *  Collection number root, box number, folder number, followed by a three-digit sequence number  
+
+**Example**:  
+P:\Digital Library Staging Area\Mss_Ms_Coll_190 - Charles Thomas Jackson Papers\Series I. Correspondence\Mss_Ms_Coll_190_b1_f1\Mss_Ms_Coll_190_b1_f1-001  
 
 ![file explorer example file structure]({{ site.baseurl }}/assets/file-format.png)
 
