@@ -353,6 +353,27 @@ Digitized other analog | A resource was created by digitizing an intermediate fo
 
 ***
 
+### **Internet Media Type**
+**Definition:** standardized label that identifies the format and nature of a digital file so systems know how to handle, display, or preserve it.  
+**Obligation:** Required if applicable; not repeatable  
+**Enter Data in Spreadsheet Column:** field_internet_media_type  
+**Type of field:** Text (plain)  
+**Application:**  
+* Follow the structure [type]/[subtype] when entering the data int this field.
+
+**Common examples:**
+* audio/wav
+* audio/mpeg
+* application/pdf
+* image/tiff
+* image/jpeg
+* iamge/jp2
+* video/mp4
+* video/quicktime
+* video/MP2T
+
+***
+
 ### **Parent Collection Call Number**
 **Definition:** Local call number or accession number for the original source object.  
 **Obligation:** Required if applicable; not repeatable  
