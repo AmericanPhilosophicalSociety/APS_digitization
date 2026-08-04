@@ -327,7 +327,7 @@ Digitized other analog | A resource was created by digitizing an intermediate fo
 * application/pdf
 * image/tiff
 * image/jpeg
-* iamge/jp2
+* image/jp2
 * video/mp4
 * video/quicktime
 * video/MP2T
