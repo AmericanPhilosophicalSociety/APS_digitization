@@ -31,7 +31,7 @@ Be sure that the scanner bed and workspace are clean and free of dust. Use the l
 * Remove and replace materials in their containers carefully.
 
 ## **Handling Materials**
-It is vital to assess the physical condition of materials before subjecting them to digitization. Please contact the project supervisor or CDS staff if you have any questions or concerns about digitizing any item or if you encounter any of the following issues:
+It is vital to assess the physical condition of materials before subjecting them to digitization. [The APS Handling Guide](documents/2026 APS Handling Guide.pdf) provides guidance on handling all kinds of material. Please contact the project supervisor or CDS staff if you have any questions or concerns about digitizing any item or if you encounter any of the following issues:
 * Folds or creases obscuring text
 * Cockled, undulating paper or photos that would be damaged by scanner pressure
 * Tears greater than 1”
